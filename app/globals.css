@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base reset for mobile */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* smooth theme transitions */
+html {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+html.dark {
+  background-color: #05060d;
+  color: #ffffff;
+}
+
+html:not(.dark) {
+  background-color: #f9fafb;
+  color: #0a0a0a;
+}
+
+/* body visuals */
+body {
+  transition: background 0.4s ease;
+}
+
+/* text selection */
+::selection {
+  background-color: rgba(6, 182, 212, 0.3);
+  color: #fff;
+}
+
+/* glow utility */
+.glow-pulse {
+  animation: pulse-glow 2.5s infinite;
+}
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 15px rgba(0,255,255,0.3); }
+  50% { box-shadow: 0 0 35px rgba(0,255,255,0.6); }
+}
+
+/* cyber scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00ffff 0%, #a855f7 100%);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.05);
+}
