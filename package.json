@@ -2,11 +2,13 @@
   "name": "jose-cyber-pro",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
+ "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "export": "next export",
+  "start": "next start"
+}
+,
   "dependencies": {
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.0.0",
