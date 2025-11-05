@@ -46,7 +46,7 @@ export default function HeaderNav() {
             <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-cyan-400 group-hover:w-full transition-all duration-300"></span>
           </Link>
           <Link
-            href="#insights"
+            href="/#insights"
             className="relative text-white/80 hover:text-cyan-400 transition group"
           >
             Insights
