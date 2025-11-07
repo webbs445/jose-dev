@@ -1,13 +1,20 @@
-// app/lib/posts.ts
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { notFound } from "next/navigation";
 
+export interface PostMeta {
+  slug: string;
+  title?: string;
+  date?: string;
+  excerpt?: string;
+  tags?: string[];
+  featuredImage?: string;
+}
+
 const postsDir = path.join(process.cwd(), "content", "blog");
 
-export function getAllPosts() {
-  // If folder doesn't exist yet, return empty list (prevents ENOENT)
+export function getAllPosts(): PostMeta[] {
   if (!fs.existsSync(postsDir)) return [];
 
   const files = fs
@@ -18,18 +25,17 @@ export function getAllPosts() {
     .map((filename) => {
       const file = fs.readFileSync(path.join(postsDir, filename), "utf8");
       const { data } = matter(file);
-      return { ...data, slug: filename.replace(/\.mdx$/i, "") };
+      return { ...data, slug: filename.replace(/\.mdx$/i, "") } as PostMeta;
     })
     .sort(
-      (a: any, b: any) =>
-        new Date(b.date).getTime() - new Date(a.date).getTime()
+      (a, b) =>
+        new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime()
     );
 }
 
 export function getPost(slug: string) {
   const fullPath = path.join(postsDir, `${slug}.mdx`);
   if (!fs.existsSync(fullPath)) {
-    // 404 nicely if someone visits a missing post
     notFound();
   }
   const file = fs.readFileSync(fullPath, "utf8");
