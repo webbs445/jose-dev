@@ -1,12 +1,23 @@
 /*
 
-# 🧱 Content Security Policy (protects from XSS)
-Content-Security-Policy: default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; connect-src 'self' https://api.websitefreelancer.in; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests; require-trusted-types-for 'script';
+# 🧱 Content Security Policy (protects from XSS and allows Next.js hydration)
+Content-Security-Policy: 
+  default-src 'self';
+  script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com;
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src 'self' https://fonts.gstatic.com;
+  img-src 'self' data: https:;
+  connect-src 'self' https://api.websitefreelancer.in https://www.google-analytics.com;
+  frame-ancestors 'none';
+  object-src 'none';
+  base-uri 'self';
+  form-action 'self';
+  upgrade-insecure-requests;
 
 # 🔒 Force HTTPS for all requests
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 
-# 🧩 Origin isolation (for SharedArrayBuffer & security)
+# 🧩 Origin isolation (for SharedArrayBuffer & COOP/COEP security)
 Cross-Origin-Opener-Policy: same-origin
 Cross-Origin-Embedder-Policy: require-corp
 
@@ -19,8 +30,11 @@ X-Frame-Options: DENY
 # 📍 Limit referrer data leakage
 Referrer-Policy: strict-origin-when-cross-origin
 
-# 🧭 Restrict browser features
+# 🧭 Restrict browser features (privacy and fingerprinting resistance)
 Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
 
-# 🌍 Cache control example (optional)
+# 🧩 Explicitly disable legacy XSS filters (as per OWASP recommendation)
+X-XSS-Protection: 0
+
+# 🌍 Cache control for static assets
 Cache-Control: public, max-age=31536000, immutable
