@@ -1,8 +1,9 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-// Prevent static optimization — Cloudflare will treat as runtime API
+// 🚨 Prevent Next.js from trying to pre-render or analyze this route at build time
 export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
 
 export async function POST(req: Request) {
   try {
@@ -11,10 +12,9 @@ export async function POST(req: Request) {
 
     const { name, email, website, message, _hp } = await req.json();
 
-    // Honeypot for spam bots
+    // Honeypot field
     if (_hp) return NextResponse.json({ ok: true });
 
-    // Validation
     if (!name || !email || !website) {
       return NextResponse.json(
         { ok: false, error: "Missing required fields" },
@@ -22,9 +22,7 @@ export async function POST(req: Request) {
       );
     }
 
-    // =========================================================
-    // 1) SEND NOTIFICATION EMAIL TO ADMIN
-    // =========================================================
+    // ⭐ Send admin email
     await resend.emails.send({
       from: process.env.AUDIT_FROM_EMAIL!,
       to: process.env.AUDIT_TO_EMAIL!,
@@ -44,9 +42,7 @@ export async function POST(req: Request) {
       ].join("\n"),
     });
 
-    // =========================================================
-    // 2) AUTO-REPLY TO USER
-    // =========================================================
+    // ⭐ Auto-reply to user
     await resend.emails.send({
       from: process.env.AUDIT_FROM_EMAIL!,
       to: email,
@@ -58,9 +54,9 @@ Thanks for requesting a free website audit. I’ll review your site and send a s
 
 • Performance (Core Web Vitals, Lighthouse)
 • Security (headers, WAF/CDN, SSL, exposure)
-• SEO technical health (crawlability, metadata)
+• SEO technical health
 
-You can reply to this email with any extra context or priorities.
+Talk to you soon!
 
 — Jose
 `,
@@ -68,7 +64,7 @@ You can reply to this email with any extra context or priorities.
 
     return NextResponse.json({ ok: true });
 
-  } catch (err: any) {
+  } catch (err) {
     console.error("SEND-AUDIT ERROR:", err);
     return NextResponse.json(
       { ok: false, error: "Email send failed" },
