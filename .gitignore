@@ -1,25 +1,36 @@
-# dependencies
+# --- Node & Dependencies ---
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# build output
+# --- Build Output (Next.js) ---
 .next/
 out/
 dist/
 build/
+.vercel/
+.wrangler/
+functions/.cache/
 
-# environment
+# --- Environment Files ---
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+*.env
 
-# misc
+# --- OS / Editor Files ---
 .DS_Store
+Thumbs.db
 *.log
 .vscode/
 .idea/
 coverage/
+
+# --- TypeScript Build Cache ---
+*.tsbuildinfo
+
+# --- Cloudflare Functions Build ---
+.functions/
