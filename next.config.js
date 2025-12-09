@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
- experimental: {
-  serverActions: {},
-}
-
+  swcMinify: true,
+  // Cloudflare compatible
+  output: "standalone"
 };
 
-export default nextConfig;
+module.exports = nextConfig;

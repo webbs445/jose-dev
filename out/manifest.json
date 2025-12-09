@@ -1,0 +1,16 @@
+{
+  "name": "Jose Cyber",
+  "short_name": "JoseCyber",
+  "description": "Secure. Fast. Future-Ready. Web revamp & performance optimization by Jose Cyber.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05060d",
+  "theme_color": "#00ffff",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+1:"$Sreact.fragment"
+2:I[7989,[],"ClientSegmentRoot"]
+3:I[4655,["486","static/chunks/486-4e48d852acd32d64.js","619","static/chunks/619-9168df9c2a29b74b.js","177","static/chunks/app/layout-8f4c3df915eff033.js"],"default"]
+4:I[9766,[],""]
+5:I[8924,[],""]
+c:I[7150,[],""]
+:HL["/_next/static/css/f6dd5cb6da3052af.css","style"]
+0:{"P":null,"b":"MXe1RXS2-u2WpMWUhwZS7","p":"","c":["","content","blog","speed-optmization"],"i":false,"f":[[["",{"children":["content",{"children":["blog",{"children":[["slug","speed-optmization","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/f6dd5cb6da3052af.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"Component":"$3","slots":{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]},"params":{},"promise":"$@6"}]]}],{"children":["content",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","speed-optmization","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","article",null,{"className":"relative min-h-screen bg-[#05060d] text-white","children":[["$","div",null,{"className":"pointer-events-none absolute inset-0 -z-10","children":[["$","div",null,{"className":"absolute left-1/2 top-24 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-[radial-gradient(circle_at_center,rgba(0,170,255,0.18)_0%,rgba(0,0,0,0)_70%)] blur-[60px]"}],["$","div",null,{"className":"absolute -right-40 top-1/3 h-[400px] w-[400px] rotate-12 rounded-full bg-[radial-gradient(circle_at_center,rgba(80,0,255,0.2)_0%,rgba(0,0,0,0)_70%)] blur-[80px]"}],["$","div",null,{"className":"absolute inset-0 opacity-[0.07] mix-blend-screen","style":{"backgroundImage":"linear-gradient(to_right,rgba(0,255,255,.15)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,255,255,.15)_1px,transparent_1px)","backgroundSize":"36px 36px","maskImage":"radial-gradient(circle at 50% 30%,rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%)","WebkitMaskImage":"radial-gradient(circle at 50% 30%,rgba(0,0,0,1) 0%,rgba(0,0,0,0) 70%)"}}]]}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Speed Optimization in Modern Websites — A Complete 2025 Guide\",\"image\":[\"https://jose-cyber-pro.vercel.app/og-jose-cyber.png\"],\"author\":{\"@type\":\"Person\",\"name\":\"Jose\",\"url\":\"https://jose-cyber-pro.vercel.app/about\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Jose Cyber\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://jose-cyber-pro.vercel.app/logo.png\"}},\"url\":\"https://jose-cyber-pro.vercel.app/blog/speed-optmization\",\"datePublished\":\"2025-11-07\",\"dateModified\":\"2025-11-07\",\"description\":\"A definitive 2025 guide to mastering Core Web Vitals, AI-powered optimization, and next-gen performance strategies for modern websites.\",\"keywords\":[\"Performance\",\"Next.js\",\"SEO\",\"UX\"]}"}}],"$L7","$L8","$L9"]}],null,"$La"]}],{},null,false]},null,false]},null,false]},null,false]},null,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"s":false,"S":true}
+d:I[1356,["356","static/chunks/356-e5489542cb0f1b9a.js","675","static/chunks/app/content/blog/%5Bslug%5D/page-8e9a6f5f18d48bf1.js"],"Image"]
+f:I[4431,[],"OutletBoundary"]
+11:I[5278,[],"AsyncMetadataOutlet"]
+13:I[4431,[],"ViewportBoundary"]
+15:I[4431,[],"MetadataBoundary"]
+16:"$Sreact.suspense"
+7:["$","section",null,{"className":"mx-auto max-w-5xl px-6 pt-28 pb-10 text-center","children":[["$","h1",null,{"className":"text-3xl md:text-5xl font-bold text-cyan-300 mb-4","children":"Speed Optimization in Modern Websites — A Complete 2025 Guide"}],["$","p",null,{"className":"text-white/70 text-lg max-w-2xl mx-auto mb-6","children":"A definitive 2025 guide to mastering Core Web Vitals, AI-powered optimization, and next-gen performance strategies for modern websites."}],["$","div",null,{"className":"flex justify-center gap-3 text-white/60 text-sm","children":[["$","span",null,{"children":"2025-11-07"}],["$","span",null,{"children":"•"}],["$","span",null,{"children":"By Jose"}],["$","span",null,{"children":"•"}],["$","span",null,{"children":"Performance, Next.js, SEO, UX"}]]}],["$","div",null,{"className":"relative mt-10 aspect-[16/9] w-full overflow-hidden rounded-2xl ring-1 ring-white/10","children":["$","$Ld",null,{"src":"/og-jose-cyber.png","alt":"Speed Optimization in Modern Websites — A Complete 2025 Guide","fill":true,"className":"object-cover","priority":true}]}]]}]
+e:Tf79,
+In the hyper-competitive digital landscape of 2025, website speed is no longer just a technical detail—it is the bedrock of user experience (UX), the fuel for conversion, and a non-negotiable factor for search engine ranking.
+
+> 💡 *A one-second delay can reduce conversions by up to **7%**, while slow sites see bounce rates skyrocket.*
+
+---
+
+## 1. The Core Metrics of 2025: Core Web Vitals (CWV)
+
+Google’s Core Web Vitals remain the definitive standard for measuring UX quality. To achieve an excellent page experience, you must pass all three metrics for 75% of your page loads.
+
+| Metric | Measures | Target Score | Optimization Focus |
+| ------- | -------- | ------------- | ------------------- |
+| **LCP (Largest Contentful Paint)** | Loading performance (main content visibility) | ≤ 2.5 s | TTFB, loading priority, image optimization |
+| **INP (Interaction to Next Paint)** | Interactivity and responsiveness | ≤ 200 ms | Minimize JS execution, optimize event handlers |
+| **CLS (Cumulative Layout Shift)** | Visual stability | ≤ 0.1 | Reserve space for images/fonts, prevent layout jumps |
+
+---
+
+### 🧠 The New King: Optimizing for INP
+
+The biggest shift for 2025 is the full adoption of **Interaction to Next Paint (INP)**, replacing the legacy FID. INP measures responsiveness throughout the session—not just the first input.
+
+**INP Optimization Strategies**
+- **Minimize JavaScript Execution:** Use code splitting and Web Workers to offload heavy computations.
+- **Audit Third-Party Scripts:** Defer loading or use Server-Side GTM to reduce main-thread blocking.
+
+---
+
+## 2. Infrastructure & Foundation: The Server-Side Boost
+
+### ⚙️ 2.1. Achieve a Sub-200 ms Time to First Byte (TTFB)
+Your hosting environment is the foundation of site speed. Upgrade to Cloud-based or Edge platforms with HTTP/3 + QUIC, and deploy Redis or Memcached caching to hit sub-200 ms TTFB.
+
+### 🌍 2.2. Leverage Edge Networks and CDNs
+A CDN is non-negotiable. It globally distributes your assets and reduces latency.
+
+- **Global Distribution:** Serve content from servers closest to users.  
+- **Image CDNs:** Auto-convert and resize to AVIF on the fly.
+
+---
+
+## 3. Front-End Mastery: The Code & Asset Layer
+
+### 3.1. Advanced Resource Prioritization
+- Inline **critical CSS** for above-the-fold content.  
+- Add `fetchpriority="high"` to your LCP element.  
+- Use `rel="preload"` for fonts and hero images.
+
+### 3.2. Image and Media Optimization — The AVIF Shift
+- Adopt **AVIF** format for max compression and quality.  
+- Use `srcset` for responsive images.  
+- Apply `loading="lazy"` for below-the-fold assets.
+
+### 3.3. Code Cleanup and Compression
+- Minify HTML/CSS/JS and enable Brotli or Zstandard compression.  
+- Self-host fonts with `font-display: swap`.
+
+---
+
+## 4. The Game Changer: AI & Predictive Performance
+
+- **AI-Powered Prerendering:** Predict likely next clicks and preload pages.  
+- **Dynamic Caching:** ML decides cache durations per user segment.  
+- **Automated Optimization:** Real-time load balancing, AVIF conversion, dependency pruning.
+
+---
+
+## 5. Monitoring & Maintenance: The 2025 Toolkit
+
+### Your Essential Tools
+- **PageSpeed Insights & Lighthouse** — lab-based audits  
+- **RUM (DebugBear / SpeedCurve)** — field data from real users  
+- **CrUX Dashboard** — official Chrome UX report for rankings
+
+### The Optimization Workflow
+- **Weekly:** Audit Core Web Vitals in Search Console.  
+- **Monthly:** Review third-party scripts and caching.  
+- **Before Launch:** Test new builds against a performance budget.
+
+---
+
+## 🏁 Conclusion
+
+The 2025 web is defined by speed. A commitment to optimization is an investment in SEO, conversions, and user trust.  
+Embrace INP, leverage AVIF, and adopt AI-driven predictive caching to deliver the instant experience modern users demand.
+
+[🚀 Request a Free Audit](/contact)
+8:["$","section",null,{"className":"mx-auto max-w-3xl px-6 py-12 prose prose-invert prose-headings:text-cyan-300 prose-a:text-cyan-400 hover:prose-a:text-white prose-blockquote:border-cyan-300 prose-blockquote:bg-white/5 prose-blockquote:text-white/70","children":["$","div",null,{"children":"$e"}]}]
+9:["$","footer",null,{"className":"border-t border-white/10 bg-black/20 py-12 text-center text-sm text-white/50 backdrop-blur-sm","children":["$","div",null,{"className":"mx-auto max-w-6xl px-6","children":[["$","div",null,{"className":"font-medium text-white/80","children":"Jose Cyber — Secure. Fast. Future-Ready."}],["$","div",null,{"className":"mt-2 text-white/40","children":"© 2025 Jose. All rights reserved."}]]}]}]
+a:["$","$Lf",null,{"children":["$L10",["$","$L11",null,{"promise":"$@12"}]]}]
+b:["$","$1","h",{"children":[null,[["$","$L13",null,{"children":"$L14"}],null],["$","$L15",null,{"children":["$","div",null,{"hidden":true,"children":["$","$16",null,{"fallback":null,"children":"$L17"}]}]}]]}]
+6:"$0:f:0:1:1:props:children:1:props:params"
+14:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+10:null
+12:{"metadata":[["$","title","0",{"children":"Speed Optimization in Modern Websites — A Complete 2025 Guide | Jose Cyber"}],["$","meta","1",{"name":"description","content":"A definitive 2025 guide to mastering Core Web Vitals, AI-powered optimization, and next-gen performance strategies for modern websites."}],["$","link","2",{"rel":"canonical","href":"https://jose-cyber-pro.vercel.app/blog/speed-optmization"}],["$","meta","3",{"property":"og:title","content":"Speed Optimization in Modern Websites — A Complete 2025 Guide | Jose Cyber"}],["$","meta","4",{"property":"og:description","content":"A definitive 2025 guide to mastering Core Web Vitals, AI-powered optimization, and next-gen performance strategies for modern websites."}],["$","meta","5",{"property":"og:url","content":"https://jose-cyber-pro.vercel.app/blog/speed-optmization"}],["$","meta","6",{"property":"og:image","content":"http://localhost:3000/og-jose-cyber.png"}],["$","meta","7",{"property":"og:image:width","content":"1200"}],["$","meta","8",{"property":"og:image:height","content":"630"}],["$","meta","9",{"property":"og:image:alt","content":"Speed Optimization in Modern Websites — A Complete 2025 Guide"}],["$","meta","10",{"property":"og:type","content":"article"}],["$","meta","11",{"property":"article:published_time","content":"2025-11-07"}],["$","meta","12",{"property":"article:author","content":"Jose"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:creator","content":"@JoseCyber"}],["$","meta","15",{"name":"twitter:title","content":"Speed Optimization in Modern Websites — A Complete 2025 Guide | Jose Cyber"}],["$","meta","16",{"name":"twitter:description","content":"A definitive 2025 guide to mastering Core Web Vitals, AI-powered optimization, and next-gen performance strategies for modern websites."}],["$","meta","17",{"name":"twitter:image","content":"http://localhost:3000/og-jose-cyber.png"}]],"error":null,"digest":"$undefined"}
+17:"$12:metadata"
